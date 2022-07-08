@@ -1,9 +1,13 @@
+/* Profile card */
 .profileCard {
     border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
     position: relative;
     gap: 1rem;
+    /* Adding the overflow-x clip to get border radius work */
+    overflow-x: clip;
+    background-color: var(--cardColor);
 }
 .profileImage {
     position: relative;
@@ -30,4 +34,51 @@
 }
 .profileName > span:nth-of-type(1) {
     font-weight: bold;
+}
+
+/* Follow status  */
+.followStatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+.followStatus > hr {
+    width: 85%;
+    border: 1px solid var(--hrColor);
+}
+.followStatus > div {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+}
+.follow > span:nth-of-type(1) {
+    font-weight: bold;
+}
+.follow > span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 13px;
+}
+.vertical-line {
+    height: 150%;
+    border-left: 2px solid var(--hrColor);
+}
+
+.profileCard > span {
+    font-weight: bold;
+    color: orange;
+    align-self: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
 }
