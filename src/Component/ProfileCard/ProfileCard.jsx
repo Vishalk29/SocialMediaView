@@ -9,7 +9,10 @@ const ProfileCard = () => {
                 <img src={Cover} alt="" />
                 <img src={Profile} alt="" />
             </div>
-
+            <div className="profileName">
+                <span> Vishal kulkarni</span>
+                <span>Software Engineer </span>
+            </div>
         </div>
     )
 }
