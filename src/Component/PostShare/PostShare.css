@@ -40,9 +40,27 @@
     align-items: center;
     font-size: 12px;
 }
+.option:hover {
+    cursor: pointer;
+}
 .ps-button {
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 12px;
+}
+.prevImage {
+    position: relative;
+}
+.prevImage > svg {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+}
+.prevImage > img {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
 }
