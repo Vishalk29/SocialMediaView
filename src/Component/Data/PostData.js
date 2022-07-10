@@ -6,7 +6,7 @@ export const PostData = [
     {
         img: postPic1,
         name: 'Tzuyu',
-        disc: "Happy new year to all friends ",
+        disc: "Happy new year to all friends #2023",
         likes: 2300,
         liked: true
 
