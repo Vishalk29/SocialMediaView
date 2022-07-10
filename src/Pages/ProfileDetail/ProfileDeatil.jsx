@@ -3,6 +3,7 @@ import Profileleft from '../../Component/ProfileLeft/Profileleft'
 import ProfileCard from '../../Component/ProfileCard/ProfileCard'
 import './ProfileDetail.css'
 import PostSide from '../../Component/PostSide/PostSide'
+import RightSide from '../../Component/RightSide/RightSide'
 const ProfileDeatil = () => {
     return (
         <div className="ProfileDetail">
@@ -11,6 +12,7 @@ const ProfileDeatil = () => {
                 <ProfileCard />
                 <PostSide />
             </div>
+            <RightSide />
 
         </div>
     )
