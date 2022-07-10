@@ -22,7 +22,5 @@ export const Posts = ({ data }) => {
             </div>
 
         </div>
-
-
     )
 }
